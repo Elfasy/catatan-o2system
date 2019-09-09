@@ -1,6 +1,14 @@
+==============================================================================
 untuk menambahkan modul supaya terbaca di link ikuti langkah2 berikut:
 di folder app/Manage/Modules buat folder baru sesuai nama Modules yg mau dibuat ex Clients
 di dalam folder tsb buat 2 folder : Controllers & Http 
-
-
+di folder Controllers buat class php sesuai dg nama modul ex Clients.php
+di foler Http buat class Controllers.php yg extends ke \App\Manage\Http\Controller
+di folder Clients buat file module.json yg isinya 
+{
+    "name": "Clients",
+    "created": "09 Sep 2019"
+}
+buka terminal dan arahkan ke root website anda lalu jalankan perintah :
 php o2system registry --update
+==============================================================================
