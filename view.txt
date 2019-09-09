@@ -1,0 +1,1 @@
+$this->load->view('alamat',['nama_variabel' => $data]) //untuk meload view
