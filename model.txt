@@ -1,0 +1,4 @@
+models()->find($id);                //untuk mencari data sesuai dg parameter yg dimasukan
+models()->insert($data);            //untuk menambah data baru ke database
+models()->update($data,['kolom_kondisi',$isi_kondisi]);    //untuk merubah data yg ada di database
+models()->allWithPaging();          //untuk menampilkan seluruh data yg ada di table database

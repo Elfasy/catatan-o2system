@@ -1,0 +1,6 @@
+untuk menambahkan modul supaya terbaca di link ikuti langkah2 berikut:
+di folder app/Manage/Modules buat folder baru sesuai nama Modules yg mau dibuat ex Clients
+di dalam folder tsb buat 2 folder : Controllers & Http 
+
+
+php o2system registry --update

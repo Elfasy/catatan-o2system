@@ -1,0 +1,10 @@
+========================================================================
+* tiap table harus ada 5 field tambahan yaitu:
+|         nama record      |              tipe data              |
+ record_status              enum('DELETED', 'ARCHIVED', 'DRAFT', 'UNPUBLISH', 'PUBLISH')
+ record_create_timestamp    datetime
+ record_create_user         int
+ record_update_timestamp    timestamp
+ record_update_user         int
+========================================================================
+
