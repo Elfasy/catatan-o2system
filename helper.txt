@@ -1,3 +1,4 @@
 current_url();  //untuk mendapatkan url sekarang
 base_url();     //untuk mendapatkan url root ex http://pulsanote.store/
+redirect_url();     //untuk mengalihkan kealamat url tertentu
 print_out();    //untuk menampilkan data dari suatu variable secara rinci tpi harus install o2system gear dulu
